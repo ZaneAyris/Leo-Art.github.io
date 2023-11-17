@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/repo-name/static/css/main.278b83d2.css",
-    "main.js": "/repo-name/static/js/main.b0940aa3.js",
-    "static/js/787.db0afd82.chunk.js": "/repo-name/static/js/787.db0afd82.chunk.js",
-    "index.html": "/repo-name/index.html",
-    "main.278b83d2.css.map": "/repo-name/static/css/main.278b83d2.css.map",
-    "main.b0940aa3.js.map": "/repo-name/static/js/main.b0940aa3.js.map",
-    "787.db0afd82.chunk.js.map": "/repo-name/static/js/787.db0afd82.chunk.js.map"
+    "main.css": "/Leo-Art.github.io/static/css/main.278b83d2.css",
+    "main.js": "/Leo-Art.github.io/static/js/main.347398df.js",
+    "static/js/787.db0afd82.chunk.js": "/Leo-Art.github.io/static/js/787.db0afd82.chunk.js",
+    "index.html": "/Leo-Art.github.io/index.html",
+    "main.278b83d2.css.map": "/Leo-Art.github.io/static/css/main.278b83d2.css.map",
+    "main.347398df.js.map": "/Leo-Art.github.io/static/js/main.347398df.js.map",
+    "787.db0afd82.chunk.js.map": "/Leo-Art.github.io/static/js/787.db0afd82.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.278b83d2.css",
-    "static/js/main.b0940aa3.js"
+    "static/js/main.347398df.js"
   ]
 }
