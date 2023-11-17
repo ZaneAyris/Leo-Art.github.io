@@ -1,11 +1,19 @@
 import React from 'react';
+import styled from 'styled-components';
 
-const HomePage = () => {
+// Pass through mode for image
+
+const StyledMainImage = styled.div`
+  img {
+    filter: invert(${props => (props.darkmode ? 1 : 0)});
+  }
+`;
+
+const HomePage = ({ darkmode }) => {
   return (
-    <div>
-      <h1>Home</h1>
-      
-    </div>
+    <StyledMainImage darkmode={darkmode}>
+      <img className="MainImage" src="../imgs/topdownbug.png" alt="Main Image" />
+    </StyledMainImage>
   );
 };
 

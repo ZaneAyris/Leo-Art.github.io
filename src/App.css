@@ -9,6 +9,12 @@
   transition: all .5s ease;
 }
 
+.MainImage {
+  display:block;
+  margin-left: 35%;
+  width: 40%;
+}
+
 .Navigation {
   margin-top: 20px;
   text-align: right;
@@ -18,7 +24,7 @@
 }
 
 .Navigation li {
-  display:contents;
+  display:block;
 }
 
 .Navigation li a {
