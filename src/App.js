@@ -1,7 +1,7 @@
 import './App.css'
 import React from 'react';
 import { useEffect } from 'react';
-import { BrowserRouter as Router, Route, Routes, Link, Outlet} from 'react-router-dom';
+import { BrowserRouter as HashRouter, Route, Routes, Link, Outlet} from 'react-router-dom';
 import HomePage from './pages/HomePage';
 import NoPage from './pages/NoPage';
 import navbar from './components/navbar';
@@ -14,7 +14,7 @@ function App() {
 
 
   return (
-    <Router>
+    <HashRouter basename='Leo-Art.github.io'>
 
       <Routes>
       <Route path="/" element={<LayoutTheme />}>
@@ -29,7 +29,7 @@ function App() {
       <Route path='*' element={<NoPage/>} />
       </Route>
       </Routes>
-    </Router>
+    </HashRouter>
   );
 
     function LayoutTheme() {
