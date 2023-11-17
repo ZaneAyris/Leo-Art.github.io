@@ -11,8 +11,8 @@
 
 .MainImage {
   display:block;
-  margin-left: 35%;
-  width: 40%;
+  margin-left: 20%;
+  width: 60%;
 }
 
 .Navigation {
@@ -24,7 +24,8 @@
 }
 
 .Navigation li {
-  display:block;
+  
+  display:inline;
 }
 
 .Navigation li a {
