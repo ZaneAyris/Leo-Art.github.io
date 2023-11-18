@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Leo-Art.github.io/static/css/main.4c1b6931.css",
-    "main.js": "/Leo-Art.github.io/static/js/main.b5b3f72b.js",
+    "main.js": "/Leo-Art.github.io/static/js/main.c5b8525b.js",
     "static/js/787.905ced99.chunk.js": "/Leo-Art.github.io/static/js/787.905ced99.chunk.js",
     "index.html": "/Leo-Art.github.io/index.html",
     "main.4c1b6931.css.map": "/Leo-Art.github.io/static/css/main.4c1b6931.css.map",
-    "main.b5b3f72b.js.map": "/Leo-Art.github.io/static/js/main.b5b3f72b.js.map",
+    "main.c5b8525b.js.map": "/Leo-Art.github.io/static/js/main.c5b8525b.js.map",
     "787.905ced99.chunk.js.map": "/Leo-Art.github.io/static/js/787.905ced99.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c1b6931.css",
-    "static/js/main.b5b3f72b.js"
+    "static/js/main.c5b8525b.js"
   ]
 }
