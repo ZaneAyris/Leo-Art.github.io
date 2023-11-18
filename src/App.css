@@ -1,6 +1,6 @@
 .App {
-  color: var(--text-primary);
-  background-color: var(--background);
+  color: black;
+  background-color: white;
   font-size: large;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
@@ -11,8 +11,10 @@
 
 .MainImage {
   display:block;
-  margin-left: 20%;
-  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  top: 0%;
+  width: 40%;
 }
 
 .Navigation {
@@ -20,16 +22,18 @@
   text-align: right;
   list-style: none;
   padding: 8px;
-
+  font-size: 20px;
+  
 }
 
 .Navigation li {
   
-  display:inline;
+  display:inline-block;
 }
 
 .Navigation li a {
   padding: 4px;
+  margin-right: 10px;
 }
 
 .Navigation-link {
@@ -69,18 +73,4 @@ button {
 
 .App-link {
   color: #61dafb;
-}
-
-[data-theme='light'] {
-  --background: white;
-  --text-primary: black;
-  --text-secondary: royalblue;
-  --accent: purple;
-}
-
-[data-theme='dark'] {
-  --background: black;
-  --text-primary: white;
-  --text-secondary: grey;
-  --accent: darkred;
 }
