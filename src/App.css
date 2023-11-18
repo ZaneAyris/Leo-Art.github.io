@@ -17,6 +17,12 @@
   width: 40%;
 }
 
+.HomeText {
+  font-size: x-large;
+  text-align: center;
+  display:block;
+}
+
 .Navigation {
   margin-top: 20px;
   text-align: right;
@@ -32,9 +38,30 @@
 }
 
 .Navigation li a {
+  position: relative;
   padding: 4px;
   margin-right: 10px;
 }
+
+.Navigation li a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 4px;
+  background-color: #18272F;
+  bottom: 0;
+  left: 0;
+  transform-origin: right;
+  transform: scaleX(0);
+  transition: transform .2s ease-in-out;
+}
+
+.Navigation li a:hover::before {
+transform-origin: left;
+transform: scaleX(1);
+}
+
 
 .Navigation-link {
   color: var(--text-primary);
