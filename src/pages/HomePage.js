@@ -1,11 +1,11 @@
 import React from 'react';
 
+
 const HomePage = () => {
+  console.log("/")
   return (
-    <div>
-      <h1>Home</h1>
-      
-    </div>
+    
+      <img className="MainImage" src="/Leo-Art.github.io/imgs/topdownbug.png" alt="Main" />
   );
 };
 
