@@ -6,14 +6,11 @@ const HomePage = () => {
   return (
     <>
     <ul className='DuoElementCentered'>
-      <li className='HomeText'>
-        <h1>LEO</h1>
-        <h1>KOVACS</h1>
-      </li>
       
-      <li>
+        <h1 className='HomeText'>LEO KOVACS</h1>
+      
         <img className="MainImage" src="/Leo-Art.github.io/imgs/topdownbug.png" alt="Main" />
-      </li>
+
       
     </ul>
 
