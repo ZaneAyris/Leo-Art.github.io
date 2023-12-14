@@ -4,8 +4,16 @@
   font-size: large;
   font-weight: bold;
   font-family: 'Roboto Condensed', sans-serif;
-  padding: 20px;
-  height: calc(100vh - 40px);
+}
+
+.Home {
+  z-index: 1;
+  position: absolute;
+  background-image: url("/public/imgs/background.png");
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  width: 100vw;
   transition: all .5s ease;
 }
 
@@ -17,7 +25,6 @@
 }
 
 
-
 .HomeText h1 {
   margin: 0;
 }
@@ -27,12 +34,14 @@
 }
 
 .Navigation {
+  display: block;
+  z-index: 2;
+  position: absolute;
   margin-top: 20px;
-  text-align: right;
+  right:0;
   list-style: none;
-  padding: 8px;
+  padding: 1px;
   font-size: 20px;
-  
 }
 
 .Navigation li {
@@ -104,3 +113,11 @@ button {
 .App-link {
   color: #61dafb;
 }
+
+.ArtMainImage {
+  width:30%;
+  height:auto;
+  align-items: center;
+}
+
+

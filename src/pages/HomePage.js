@@ -4,8 +4,8 @@ import React from 'react';
 const HomePage = () => {
   console.log("/")
   return (
-    <>
-    <ul className='DuoElementCentered'>
+    <div className='Home'>
+    <ul>
       
         <h1 className='HomeText'>LEO KOVACS</h1>
       
@@ -14,7 +14,7 @@ const HomePage = () => {
       
     </ul>
 
-    </>
+    </div>
   );
 };
 
